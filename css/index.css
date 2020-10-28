@@ -178,7 +178,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none; }
 
 table {
@@ -249,8 +249,8 @@ input {
           flex-wrap: wrap;
   width: 100%;
   max-width: 1170px;
-  padding: -webkit-calc(30px + 3.24vw) 0;
-  padding: calc(30px + 3.24vw) 0;
+  padding: -webkit-calc(30px + 3.24vmin) 0;
+  padding: calc(30px + 3.24vmin) 0;
   margin: 0 auto; }
 
 section {
@@ -274,20 +274,20 @@ section {
   width: 100%;
   text-align: center;
   font-family: SourceLight;
-  font-size: -webkit-calc(16px + 0.34vw);
-  font-size: calc(16px + 0.34vw);
+  font-size: -webkit-calc(16px + 0.34vmin);
+  font-size: calc(16px + 0.34vmin);
   color: #333b46;
   text-transform: uppercase;
-  margin-bottom: -webkit-calc(20px + 1vw);
-  margin-bottom: calc(20px + 1vw); }
+  margin-bottom: -webkit-calc(20px + 1vmin);
+  margin-bottom: calc(20px + 1vmin); }
 
 .section_description {
   width: 50%;
   font-family: OpenRegular;
   font-size: 14px;
   line-height: 2;
-  margin-bottom: -webkit-calc(20px + 1.5vw);
-  margin-bottom: calc(20px + 1.5vw);
+  margin-bottom: -webkit-calc(20px + 1.5vmin);
+  margin-bottom: calc(20px + 1.5vmin);
   color: #81868e;
   text-align: center; }
 
@@ -363,8 +363,8 @@ header {
 .main-header-logo {
   cursor: pointer;
   font-family: BigJohn;
-  font-size: -webkit-calc(30px + 0.5vw);
-  font-size: calc(30px + 0.5vw); }
+  font-size: -webkit-calc(30px + 0.5vmin);
+  font-size: calc(30px + 0.5vmin); }
   .main-header-logo a {
     display: block;
     color: white;
@@ -386,12 +386,12 @@ header {
   border: 1px solid transparent;
   border-radius: 20px;
   font-family: OpenRegular;
-  font-size: -webkit-calc(16px + 0.2vw);
-  font-size: calc(16px + 0.2vw);
+  font-size: -webkit-calc(16px + 0.2vmin);
+  font-size: calc(16px + 0.2vmin);
   color: white;
-  -webkit-transition: border .7s ease-in-out;
-  -o-transition: border .7s ease-in-out;
-  transition: border .7s ease-in-out; }
+  -webkit-transition: border 0.7s ease-in-out;
+  -o-transition: border 0.7s ease-in-out;
+  transition: border 0.7s ease-in-out; }
   .header-nav-item a:hover {
     border: 1px solid white; }
 
@@ -441,14 +441,14 @@ header {
     margin: calc(25px + 1.8vh);
     font-family: SourceLight;
     font-weight: 400;
-    font-size: -webkit-calc(30px + 0.8vw);
-    font-size: calc(30px + 0.8vw);
+    font-size: -webkit-calc(30px + 0.8vmin);
+    font-size: calc(30px + 0.8vmin);
     text-transform: uppercase;
     color: white; }
   .fullscreen-body .headline-description {
     font-family: OpenRegular;
-    font-size: -webkit-calc(16px + 0.2vw);
-    font-size: calc(16px + 0.2vw);
+    font-size: -webkit-calc(16px + 0.2vmin);
+    font-size: calc(16px + 0.2vmin);
     color: white; }
   .fullscreen-body .headline-btn {
     position: absolute;
@@ -478,8 +478,8 @@ header {
     -webkit-animation: pulse 2s infinite;
             animation: pulse 2s infinite; }
     .fullscreen-body .headline-btn i {
-      font-size: -webkit-calc(26px + 0.8vw);
-      font-size: calc(26px + 0.8vw);
+      font-size: -webkit-calc(26px + 0.8vmin);
+      font-size: calc(26px + 0.8vmin);
       color: #19bd9a;
       cursor: pointer;
       -webkit-transition: all 0.7s ease-in-out;
@@ -545,18 +545,18 @@ header {
           justify-content: flex-start; }
   .aboute_columns .about_title {
     font-family: SourceLight;
-    font-size: -webkit-calc(16px + 0.34vw);
-    font-size: calc(16px + 0.34vw);
+    font-size: -webkit-calc(16px + 0.34vmin);
+    font-size: calc(16px + 0.34vmin);
     text-transform: uppercase;
     color: #333b46;
-    margin-bottom: -webkit-calc(30px + 1.5vw);
-    margin-bottom: calc(30px + 1.5vw); }
+    margin-bottom: -webkit-calc(30px + 1.5vmin);
+    margin-bottom: calc(30px + 1.5vmin); }
   .aboute_columns .about_text {
     font-family: OpenRegular;
     font-size: 14px;
     line-height: 2;
-    margin-bottom: -webkit-calc(30px + 1.5vw);
-    margin-bottom: calc(30px + 1.5vw);
+    margin-bottom: -webkit-calc(30px + 1.5vmin);
+    margin-bottom: calc(30px + 1.5vmin);
     color: #81868e; }
   .aboute_columns img {
     width: 100%;
@@ -567,16 +567,16 @@ header {
   -webkit-flex: 1 1 60%;
       -ms-flex: 1 1 60%;
           flex: 1 1 60%;
-  padding-left: -webkit-calc(50px + 8vw);
-  padding-left: calc(50px + 8vw); }
+  padding-left: -webkit-calc(50px + 8vmin);
+  padding-left: calc(50px + 8vmin); }
 
 .aboute_columns:last-child {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 40%;
       -ms-flex: 1 1 40%;
           flex: 1 1 40%;
-  padding-left: -webkit-calc(50px + 6vw);
-  padding-left: calc(50px + 6vw); }
+  padding-left: -webkit-calc(50px + 6vmin);
+  padding-left: calc(50px + 6vmin); }
 
 .about_btn {
   position: relative;
@@ -599,8 +599,8 @@ header {
     z-index: -1; }
   .about_btn a {
     display: block;
-    padding: 10px -webkit-calc(20px + 0.8vw);
-    padding: 10px calc(20px + 0.8vw);
+    padding: 10px -webkit-calc(20px + 0.8vmin);
+    padding: 10px calc(20px + 0.8vmin);
     border: 1px solid #333b46;
     border-radius: 20px;
     color: #333b46;
@@ -659,8 +659,8 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  margin-bottom: -webkit-calc(30px + 1.5vw);
-  margin-bottom: calc(30px + 1.5vw); }
+  margin-bottom: -webkit-calc(30px + 1.5vmin);
+  margin-bottom: calc(30px + 1.5vmin); }
   .details-block-logo div {
     display: -webkit-box;
     display: -webkit-flex;
@@ -679,8 +679,8 @@ header {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: -webkit-calc(12px + 0.3vw);
-    padding: calc(12px + 0.3vw);
+    padding: -webkit-calc(12px + 0.3vmin);
+    padding: calc(12px + 0.3vmin);
     border-radius: 50%;
     background-color: #81868e;
     -webkit-transition: background-color 0.5s linear;
@@ -690,11 +690,11 @@ header {
     width: 53px;
     height: 53px; }
     .details-block-logo div:not(:last-child) {
-      margin-right: -webkit-calc(25px + 0.4vw);
-      margin-right: calc(25px + 0.4vw); }
+      margin-right: -webkit-calc(25px + 0.4vmin);
+      margin-right: calc(25px + 0.4vmin); }
     .details-block-logo div i {
-      font-size: -webkit-calc(12px + 1vw);
-      font-size: calc(12px + 1vw);
+      font-size: -webkit-calc(12px + 1vmin);
+      font-size: calc(12px + 1vmin);
       color: white; }
   .details-block-logo .active_tab {
     background-color: #19bd9a; }
@@ -722,17 +722,17 @@ header {
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
     font-family: OpenRegular;
-    font-size: -webkit-calc(16px + 0.4vw);
-    font-size: calc(16px + 0.4vw);
+    font-size: -webkit-calc(16px + 0.4vmin);
+    font-size: calc(16px + 0.4vmin);
     text-transform: capitalize;
     color: #464646;
-    padding-left: -webkit-calc(40px + 1.6vw);
-    padding-left: calc(40px + 1.6vw);
-    margin-bottom: -webkit-calc(25px + 1.5vw);
-    margin-bottom: calc(25px + 1.5vw); }
+    padding-left: -webkit-calc(40px + 1.6vmin);
+    padding-left: calc(40px + 1.6vmin);
+    margin-bottom: -webkit-calc(25px + 1.5vmin);
+    margin-bottom: calc(25px + 1.5vmin); }
   .deteils-block-text .details_text {
-    padding: 0 -webkit-calc(20px + 1.6vw);
-    padding: 0 calc(20px + 1.6vw);
+    padding: 0 -webkit-calc(20px + 1.6vmin);
+    padding: 0 calc(20px + 1.6vmin);
     color: #81868e;
     line-height: 1.7; }
     .deteils-block-text .details_text:nth-child(2) {
@@ -827,8 +827,8 @@ header {
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     width: 100%;
-    height: -webkit-calc(250px + 8vw);
-    height: calc(250px + 8vw);
+    height: -webkit-calc(250px + 8vmin);
+    height: calc(250px + 8vmin);
     overflow: hidden;
     margin: 0 auto; }
 
@@ -844,8 +844,8 @@ header {
     vertical-align: bottom;
     position: relative;
     width: 33.333%;
-    height: -webkit-calc(250px + 8vw);
-    height: calc(250px + 8vw);
+    height: -webkit-calc(250px + 8vmin);
+    height: calc(250px + 8vmin);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-transition: all 500ms ease;
@@ -871,8 +871,8 @@ header {
         -webkit-justify-content: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        height: -webkit-calc(250px + 8vw);
-        height: calc(250px + 8vw);
+        height: -webkit-calc(250px + 8vmin);
+        height: calc(250px + 8vmin);
         width: 100%;
         position: relative;
         z-index: 3;
@@ -895,8 +895,8 @@ header {
           text-align: center;
           position: relative;
           z-index: 5;
-          font-size: -webkit-calc(16px + 0.4vw);
-          font-size: calc(16px + 0.4vw);
+          font-size: -webkit-calc(16px + 0.4vmin);
+          font-size: calc(16px + 0.4vmin);
           white-space: nowrap;
           overflow: hidden;
           -webkit-transition: all 400ms ease;
@@ -909,11 +909,11 @@ header {
           font-size: 24px;
           text-transform: uppercase;
           margin-bottom: 2px;
-          top: -webkit-calc(250px + 8vw)-90;
-          top: calc(250px + 8vw)-90; }
+          top: -webkit-calc(250px + 8vmin)-90;
+          top: calc(250px + 8vmin)-90; }
         .accordion ul li div a p {
-          top: -webkit-calc(250px + 8vw)-90;
-          top: calc(250px + 8vw)-90;
+          top: -webkit-calc(250px + 8vmin)-90;
+          top: calc(250px + 8vmin)-90;
           font-size: 13.5px; }
   .accordion ul li:nth-child(1) {
     background-image: url("../img/section_four/camera-2598507_1280.jpg"); }
@@ -961,8 +961,8 @@ header {
 .projects-submit-block {
   position: relative;
   width: 100%;
-  padding: -webkit-calc(20px + 2vw) 0;
-  padding: calc(20px + 2vw) 0;
+  padding: -webkit-calc(20px + 2vmin) 0;
+  padding: calc(20px + 2vmin) 0;
   background-image: url(../img/section_four/sneakers-2387899_1920.jpg);
   background-position: center bottom;
   z-index: 1; }
@@ -983,8 +983,8 @@ header {
             justify-content: space-between;
     padding: 0 15px;
     font-family: SourceLight;
-    font-size: -webkit-calc(16px + 0.6vw);
-    font-size: calc(16px + 0.6vw);
+    font-size: -webkit-calc(16px + 0.6vmin);
+    font-size: calc(16px + 0.6vmin);
     color: white;
     z-index: 3; }
     .projects-submit-block .wrapper .projects-submit-text {
@@ -1127,8 +1127,8 @@ header {
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
-      padding: 0 -webkit-calc(12px + 0.3vw);
-      padding: 0 calc(12px + 0.3vw);
+      padding: 0 -webkit-calc(12px + 0.3vmin);
+      padding: 0 calc(12px + 0.3vmin);
       border-radius: 50%;
       background-color: #81868e;
       -webkit-transition: background-color 0.5s linear;
@@ -1138,11 +1138,11 @@ header {
       width: 53px;
       height: 53px; }
       .skills_left .block_skills_left_tabs div:not(:last-child) {
-        margin-bottom: -webkit-calc(25px + 0.4vw);
-        margin-bottom: calc(25px + 0.4vw); }
+        margin-bottom: -webkit-calc(25px + 0.4vmin);
+        margin-bottom: calc(25px + 0.4vmin); }
       .skills_left .block_skills_left_tabs div i {
-        font-size: -webkit-calc(12px + 1vw);
-        font-size: calc(12px + 1vw);
+        font-size: -webkit-calc(12px + 1vmin);
+        font-size: calc(12px + 1vmin);
         color: white; }
     .skills_left .block_skills_left_tabs .active_tab_skills {
       background-color: #19bd9a; }
@@ -1179,15 +1179,15 @@ header {
           -ms-flex: 1 1 100%;
               flex: 1 1 100%;
       font-family: OpenRegular;
-      font-size: -webkit-calc(16px + 0.4vw);
-      font-size: calc(16px + 0.4vw);
+      font-size: -webkit-calc(16px + 0.4vmin);
+      font-size: calc(16px + 0.4vmin);
       text-transform: capitalize;
       color: #464646;
-      padding: 0 -webkit-calc(20px + 1.6vw);
-      padding: 0 calc(20px + 1.6vw); }
+      padding: 0 -webkit-calc(20px + 1.6vmin);
+      padding: 0 calc(20px + 1.6vmin); }
     .skills_left .block_skills_text .skills_text {
-      padding: 0 -webkit-calc(20px + 1.6vw);
-      padding: 0 calc(20px + 1.6vw);
+      padding: 0 -webkit-calc(20px + 1.6vmin);
+      padding: 0 calc(20px + 1.6vmin);
       color: #81868e;
       line-height: 1.7; }
       .skills_left .block_skills_text .skills_text:nth-child(2) {
@@ -1232,8 +1232,8 @@ header {
     position: relative; }
     .skills_right .progress-ring_block .progress-ring {
       z-index: 8;
-      margin-bottom: -webkit-calc(16px + 0.2vw);
-      margin-bottom: calc(16px + 0.2vw); }
+      margin-bottom: -webkit-calc(16px + 0.2vmin);
+      margin-bottom: calc(16px + 0.2vmin); }
       .skills_right .progress-ring_block .progress-ring .progress-ring__circle {
         -webkit-transform-origin: center;
             -ms-transform-origin: center;
@@ -1258,8 +1258,8 @@ header {
           -ms-transform: translate(-50%, -125%);
               transform: translate(-50%, -125%);
       font-family: OpenRegular;
-      font-size: -webkit-calc(20px + 0.6vw);
-      font-size: calc(20px + 0.6vw);
+      font-size: -webkit-calc(20px + 0.6vmin);
+      font-size: calc(20px + 0.6vmin);
       color: #81868e; }
     .skills_right .progress-ring_block p {
       font-family: RobotoLight;
@@ -1320,8 +1320,8 @@ header {
     padding: 0 15px; }
     .impressed .impressed_mac img {
       position: relative;
-      top: -webkit-calc((40px + 3.24vw)*-1);
-      top: calc((40px + 3.24vw)*-1);
+      top: -webkit-calc((40px + 3.24vmin) * -1);
+      top: calc((40px + 3.24vmin) * -1);
       min-width: 200px;
       width: auto;
       height: auto;
@@ -1347,20 +1347,20 @@ header {
           align-items: flex-start; }
   .impressed_block .impressed-title {
     font-family: SourceLight;
-    font-size: -webkit-calc(16px + 0.4vw);
-    font-size: calc(16px + 0.4vw);
+    font-size: -webkit-calc(16px + 0.4vmin);
+    font-size: calc(16px + 0.4vmin);
     color: #f3f3f3;
     text-transform: uppercase;
-    padding-bottom: -webkit-calc(30px + 1.2vw);
-    padding-bottom: calc(30px + 1.2vw); }
+    padding-bottom: -webkit-calc(30px + 1.2vmin);
+    padding-bottom: calc(30px + 1.2vmin); }
   .impressed_block .card-impressed .card-impressed_description {
     font-family: OpenRegular;
     font-size: 16px;
     color: #b2b3b3;
     line-height: 1.75;
     text-align: justify;
-    margin-bottom: -webkit-calc(22px + 0.8vw);
-    margin-bottom: calc(22px + 0.8vw); }
+    margin-bottom: -webkit-calc(22px + 0.8vmin);
+    margin-bottom: calc(22px + 0.8vmin); }
   .impressed_block .card-impressed .card-impressed-author {
     font-family: OpenBold;
     font-size: 16px;
@@ -1436,8 +1436,8 @@ header {
   .block_portfolio .block_portfolio_tabs .portfolio_list .portfolio_item {
     cursor: pointer;
     font-family: "OpenRegular";
-    font-size: -webkit-calc(16px + 0.2vw);
-    font-size: calc(16px + 0.2vw);
+    font-size: -webkit-calc(16px + 0.2vmin);
+    font-size: calc(16px + 0.2vmin);
     padding: 15px;
     padding-bottom: 10px; }
   .block_portfolio .block_portfolio_tabs .portfolio_list .active {
@@ -1525,8 +1525,8 @@ header {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    padding: -webkit-calc(10px + 0.6vw);
-    padding: calc(10px + 0.6vw); }
+    padding: -webkit-calc(10px + 0.6vmin);
+    padding: calc(10px + 0.6vmin); }
 
 .visually_hidden {
   background-color: rgba(0, 0, 0, 0.7);
@@ -1544,8 +1544,8 @@ header {
     text-align: left; }
   .visually_hidden .visually_hidden_title {
     font-family: "SourceLight";
-    font-size: -webkit-calc(14px + 0.6vw);
-    font-size: calc(14px + 0.6vw);
+    font-size: -webkit-calc(14px + 0.6vmin);
+    font-size: calc(14px + 0.6vmin);
     color: #19bd9a;
     text-transform: uppercase;
     margin-bottom: -webkit-calc(10px + 0.8px);
@@ -1561,8 +1561,8 @@ header {
       background-color: #19bd9a; }
   .visually_hidden .visually_hidden_subtitle {
     font-family: "OpenRegular";
-    font-size: -webkit-calc(8px + 0.6vw);
-    font-size: calc(8px + 0.6vw);
+    font-size: -webkit-calc(8px + 0.6vmin);
+    font-size: calc(8px + 0.6vmin);
     color: #b2b3b3;
     white-space: nowrap;
     overflow: hidden;
@@ -1675,8 +1675,8 @@ header {
   background-position: top center;
   padding-left: 20px; }
   .block_team_card .member_logo img {
-    max-height: -webkit-calc(400px + 2vw);
-    max-height: calc(400px + 2vw); }
+    max-height: -webkit-calc(400px + 2vmin);
+    max-height: calc(400px + 2vmin); }
 
 .block_team_card .member_info {
   -webkit-box-flex: 1;
@@ -1703,26 +1703,26 @@ header {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  padding: -webkit-calc(20px + 1vw) -webkit-calc(30px + 1vw);
-  padding: calc(20px + 1vw) calc(30px + 1vw); }
+  padding: -webkit-calc(20px + 1vmin) -webkit-calc(30px + 1vmin);
+  padding: calc(20px + 1vmin) calc(30px + 1vmin); }
   .block_team_card .member_info .member_item {
     width: 60%;
     text-align: end;
-    margin-bottom: -webkit-calc(20px + 1vw);
-    margin-bottom: calc(20px + 1vw); }
+    margin-bottom: -webkit-calc(20px + 1vmin);
+    margin-bottom: calc(20px + 1vmin); }
   .block_team_card .member_info .member_name {
-    font-family: 'OpenRegular';
-    font-size: -webkit-calc(16px + 0.5vw);
-    font-size: calc(16px + 0.5vw);
+    font-family: "OpenRegular";
+    font-size: -webkit-calc(16px + 0.5vmin);
+    font-size: calc(16px + 0.5vmin);
     color: #464646; }
   .block_team_card .member_info .member_position {
-    font-family: 'SourceLight';
+    font-family: "SourceLight";
     font-style: italic;
     text-transform: uppercase;
     color: #81868e; }
   .block_team_card .member_info .member_description {
     width: 60%;
-    font-family: 'OpenRegular';
+    font-family: "OpenRegular";
     font-size: 14px;
     color: #81868e;
     line-height: 1.79; }
@@ -1764,7 +1764,7 @@ header {
     -webkit-flex: 1 1 50%;
         -ms-flex: 1 1 50%;
             flex: 1 1 50%;
-    font-family: 'SourceLight';
+    font-family: "SourceLight";
     font-size: 16px;
     color: #81868e; }
   .block_team_card .member_skills .skill_block .skill_text {
@@ -1782,8 +1782,8 @@ header {
   width: 100%;
   background-color: #e1e4e9;
   height: 4px;
-  margin-bottom: -webkit-calc(30px + 1vw);
-  margin-bottom: calc(30px + 1vw); }
+  margin-bottom: -webkit-calc(30px + 1vmin);
+  margin-bottom: calc(30px + 1vmin); }
   .block_team_card .member_skills .container_rang .skill_rang {
     position: absolute;
     background-color: #19bd9a;
@@ -1819,8 +1819,8 @@ header {
   .section_nine .container {
     z-index: 1; }
     .section_nine .container .wrapper {
-      padding: -webkit-calc(30px + 2vw) 0;
-      padding: calc(30px + 2vw) 0; }
+      padding: -webkit-calc(30px + 2vmin) 0;
+      padding: calc(30px + 2vmin) 0; }
       .section_nine .container .wrapper .team_contact {
         display: -webkit-box;
         display: -webkit-flex;
@@ -1846,20 +1846,20 @@ header {
         .section_nine .container .wrapper .team_contact .team_contact_title {
           width: 100%;
           text-align: center;
-          margin-bottom: -webkit-calc(20px + 1vw);
-          margin-bottom: calc(20px + 1vw);
+          margin-bottom: -webkit-calc(20px + 1vmin);
+          margin-bottom: calc(20px + 1vmin);
           text-transform: capitalize;
           font-family: "OpenRegular";
-          font-size: -webkit-calc(16px + 0.5vw);
-          font-size: calc(16px + 0.5vw);
+          font-size: -webkit-calc(16px + 0.5vmin);
+          font-size: calc(16px + 0.5vmin);
           color: white; }
         .section_nine .container .wrapper .team_contact .team_contact_btn .talk_btn {
-          padding: 10px -webkit-calc(20px + 1vw);
-          padding: 10px calc(20px + 1vw);
+          padding: 10px -webkit-calc(20px + 1vmin);
+          padding: 10px calc(20px + 1vmin);
           text-transform: capitalize;
           font-family: "OpenRegular";
-          font-size: -webkit-calc(12px + 0.3vw);
-          font-size: calc(12px + 0.3vw);
+          font-size: -webkit-calc(12px + 0.3vmin);
+          font-size: calc(12px + 0.3vmin);
           color: white;
           cursor: pointer;
           border: 1px solid white;
@@ -1928,8 +1928,8 @@ header {
         border: 1px solid transparent;
         border-radius: 20px;
         font-family: Pretendo;
-        font-size: -webkit-calc(16px + 0.2vw);
-        font-size: calc(16px + 0.2vw);
+        font-size: -webkit-calc(16px + 0.2vmin);
+        font-size: calc(16px + 0.2vmin);
         color: white;
         -webkit-transition: all 1s ease-in-out;
         -o-transition: all 1s ease-in-out;
@@ -2047,11 +2047,11 @@ header {
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
         width: 100%;
-        margin-bottom: -webkit-calc(20px + 0.4vw);
-        margin-bottom: calc(20px + 0.4vw); }
+        margin-bottom: -webkit-calc(20px + 0.4vmin);
+        margin-bottom: calc(20px + 0.4vmin); }
         .section_five .services-block-skills .block_skills .block_skills_left_tabs div:not(:last-child) {
-          margin-right: -webkit-calc(15px + 0.4vw);
-          margin-right: calc(15px + 0.4vw);
+          margin-right: -webkit-calc(15px + 0.4vmin);
+          margin-right: calc(15px + 0.4vmin);
           margin-bottom: 0; }
       .section_five .services-block-skills .block_skills .block_skills_text {
         display: none;
@@ -2071,24 +2071,24 @@ header {
         padding: 0;
         margin-top: -1px;
         text-align: justify;
-        margin-bottom: -webkit-calc(20px + 0.4vw);
-        margin-bottom: calc(20px + 0.4vw); }
+        margin-bottom: -webkit-calc(20px + 0.4vmin);
+        margin-bottom: calc(20px + 0.4vmin); }
         .section_five .services-block-skills .block_skills .block_skills_text .skills__title {
           -webkit-box-flex: 1;
           -webkit-flex: 1 1 100%;
               -ms-flex: 1 1 100%;
                   flex: 1 1 100%;
           font-family: OpenRegular;
-          font-size: -webkit-calc(16px + 0.4vw);
-          font-size: calc(16px + 0.4vw);
+          font-size: -webkit-calc(16px + 0.4vmin);
+          font-size: calc(16px + 0.4vmin);
           text-transform: capitalize;
           color: #464646;
-          padding: 0 -webkit-calc(20px + 1.2vw);
-          padding: 0 calc(20px + 1.2vw);
+          padding: 0 -webkit-calc(20px + 1.2vmin);
+          padding: 0 calc(20px + 1.2vmin);
           margin-bottom: 15px; }
         .section_five .services-block-skills .block_skills .block_skills_text .skills_text {
-          padding: 0 -webkit-calc(20px + 1.6vw);
-          padding: 0 calc(20px + 1.6vw);
+          padding: 0 -webkit-calc(20px + 1.6vmin);
+          padding: 0 calc(20px + 1.6vmin);
           color: #81868e;
           line-height: 1.7; }
           .section_five .services-block-skills .block_skills .block_skills_text .skills_text:nth-child(2) {
@@ -2251,8 +2251,8 @@ header {
               align-items: center;
       padding-left: 0px; }
       .block_team_card .member_logo img {
-        max-height: -webkit-calc(300px + 2vw);
-        max-height: calc(300px + 2vw); }
+        max-height: -webkit-calc(300px + 2vmin);
+        max-height: calc(300px + 2vmin); }
     .block_team_card .member_info {
       -webkit-box-flex: 1;
       -webkit-flex: 1 1 100%;
@@ -2368,3 +2368,9 @@ header {
     grid-template-columns: repeat(4, -webkit-calc(25% - 5px));
     grid-template-columns: repeat(4, calc(25% - 5px));
     grid-template-rows: repeat(12, 17vh); } }
+
+@media screen and (min-width: 1400px) {
+  .section_three .details-block-logo i {
+    font-size: 22px; }
+  .section_five .skills_left .block_skills_left_tabs i {
+    font-size: 22px; } }
