@@ -2343,7 +2343,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, -webkit-calc(50% - 5px));
     grid-template-columns: repeat(2, calc(50% - 5px));
-    grid-template-rows: repeat(12, 20vh);
+    grid-template-rows: repeat(12, 25vh);
     grid-gap: 5px; }
     .block_portfolio_cards .portfolio_card:nth-child(1) {
       grid-row: 1/5;
