@@ -2111,6 +2111,12 @@ header {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex; }
+  .section_five .block_portfolio_cards {
+    display: grid;
+    grid-template-columns: repeat(2, -webkit-calc(50% - 5px));
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    grid-template-rows: repeat(12, 15vh);
+    grid-gap: 5px; }
   .block_portfolio_cards {
     display: grid;
     grid-template-columns: repeat(3, -webkit-calc(33.333% - 5px));
@@ -2274,7 +2280,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, -webkit-calc(50% - 5px));
     grid-template-columns: repeat(2, calc(50% - 5px));
-    grid-template-rows: repeat(12, 20vh);
+    grid-template-rows: repeat(12, 12vh);
     grid-gap: 5px; }
     .block_portfolio_cards .portfolio_card {
       position: relative;
