@@ -1435,7 +1435,7 @@ header {
   margin-bottom: 10px; }
   .block_portfolio .block_portfolio_tabs .portfolio_list .portfolio_item {
     cursor: pointer;
-    font-family: 'OpenRegular';
+    font-family: "OpenRegular";
     font-size: -webkit-calc(16px + 0.2vw);
     font-size: calc(16px + 0.2vw);
     padding: 15px;
@@ -1444,7 +1444,7 @@ header {
     position: relative;
     color: #19bd9a; }
     .block_portfolio .block_portfolio_tabs .portfolio_list .active:after {
-      content: '';
+      content: "";
       width: 38px;
       height: 2px;
       background-color: #19bd9a;
@@ -1543,7 +1543,7 @@ header {
             flex: 1 1 100%;
     text-align: left; }
   .visually_hidden .visually_hidden_title {
-    font-family: 'SourceLight';
+    font-family: "SourceLight";
     font-size: -webkit-calc(14px + 0.6vw);
     font-size: calc(14px + 0.6vw);
     color: #19bd9a;
@@ -1560,7 +1560,7 @@ header {
       height: 2px;
       background-color: #19bd9a; }
   .visually_hidden .visually_hidden_subtitle {
-    font-family: 'OpenRegular';
+    font-family: "OpenRegular";
     font-size: -webkit-calc(8px + 0.6vw);
     font-size: calc(8px + 0.6vw);
     color: #b2b3b3;
@@ -2274,7 +2274,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, -webkit-calc(50% - 5px));
     grid-template-columns: repeat(2, calc(50% - 5px));
-    grid-template-rows: repeat(12, 10vh);
+    grid-template-rows: repeat(12, 20vh);
     grid-gap: 5px; }
     .block_portfolio_cards .portfolio_card {
       position: relative;
