@@ -2279,13 +2279,7 @@ header {
         display: none;
         width: 90%; }
       .block_team_card .member_info .member_skills .container_rang {
-        margin-bottom: 15px; } 
-.block_portfolio_cards {
-    display: grid;
-    grid-template-columns: repeat(2, -webkit-calc(50% - 5px));
-    grid-template-columns: repeat(2, calc(50% - 5px));
-    grid-template-rows: repeat(12, 15vh);
-    grid-gap: 5px; }}
+        margin-bottom: 15px; } }
 
 @media screen and (max-width: 480px) {
   .block_portfolio_cards {
