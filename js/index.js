@@ -11,6 +11,7 @@ class Bounce {
       this.hamburgerBtn = document.querySelector('.hamburger-nav--btn');
       this.hamburgerInput = document.getElementById('menu_checkbox');
       this.hamburgerMenu = document.querySelector('.hamburger-nav-list');
+      this.hamburgerItem = document.querySelectorAll('.hamburger-nav-item a');
 
       this.circle = document.querySelectorAll(".progress-ring__circle");
 
@@ -21,9 +22,13 @@ class Bounce {
          this.heightHeader();
          this.progressRing();
       }
+      window.onresize = () => this.deleteHamburgerMenu();
 
       this.headlineBtn.onclick = () => this.autoScroll();
       this.hamburgerBtn.onclick = () => this.addHamburgerMenu();
+      this.hamburgerItem.forEach((item) => {
+         item.onclick = () => this.deleteHamburgerMenu();
+      })
 
       this.formBtn.onclick = (a) => this.validationForm();
    }
@@ -39,6 +44,10 @@ class Bounce {
       }
    }
 
+   deleteHamburgerMenu() {
+      this.hamburgerInput.checked = false;
+      setTimeout(() => this.hamburgerMenu.classList.remove('hamburger-list--active'), 500);
+   }
    // ----------------- Height and background header -------------
    heightHeader() {
       if (window.pageYOffset >= 150) {
