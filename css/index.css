@@ -1385,9 +1385,9 @@ header {
 .portfolio {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
   .portfolio .portfolio_title,
   .portfolio .portfolio_descripotion,
   .portfolio .portfolio_content {
